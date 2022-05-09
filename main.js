@@ -36,7 +36,7 @@ function draw(){
     
    if(Status != ""){
        r = random(255);
-       b = random(255);
+       g = random(255);
        b = random(255);
     objectDetector.detect(video, gotResult); 
         for(v = 0; v< objects.length; v++)
